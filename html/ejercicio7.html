@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/ejercicio7.css">
+    <script src="../js/ejercicio7.js"></script>
+    <title>Ejercicio 7</title>
+</head>
+<body>
+    <div class="container my-4">  
+
+        <div class="calculator card">
+    
+            <div class="pantalla" id="pantalla"></div>
+            <div class="teclas">
+        
+              <button type="button" class="operator btn btn-info" value="+" onclick="mas()">+</button>
+              <button type="button" class="operator btn btn-info" value="-" onclick="menos()">-</button>
+              <button type="button" class="operator btn btn-info" value="*" onclick="por()">&times;</button>
+              <button type="button" class="operator btn btn-info" value="/" onclick="entre()">&divide;</button>
+        
+              <button type="button" value="7" class="btn btn-light" onclick="siete()">7</button>
+              <button type="button" value="8" class="btn btn-light" onclick="ocho()">8</button>
+              <button type="button" value="9" class="btn btn-light" onclick="nueve()">9</button>
+        
+        
+              <button type="button" value="4" class="btn btn-light" onclick="cuatro()">4</button>
+              <button type="button" value="5" class="btn btn-light" onclick="cinco()">5</button>
+              <button type="button" value="6" class="btn btn-light" onclick="seis()">6</button>
+        
+        
+              <button type="button" value="1" class="btn btn-light" onclick="uno()">1</button>
+              <button type="button" value="2" class="btn btn-light" onclick="dos()">2</button>
+              <button type="button" value="3" class="btn btn-light" onclick="tres()">3</button>
+        
+        
+              <button type="button" value="0" class="btn btn-light" onclick="cero()">0</button>
+              <button type="button" class="decimal function btn btn-secondary" value=".">.</button>
+              <button type="button" class="all-clear function btn btn-danger btn-sm" onclick="borrarCE()">AC</button>
+        
+              <button type="button" class="equal-sign operator btn btn-default" value="=" onclick="igual()">=</button>
+        
+            </div>
+          </div>
+        </div>
+</body>
+</html>

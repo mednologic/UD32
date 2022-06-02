@@ -1,0 +1,28 @@
+.fa-phone, .bi-send-fill, .bi-geo-alt-fill{
+    margin-left: 1px;
+}
+.bi{
+    margin-top: 50%;
+    margin-bottom: 50%;
+    
+}
+.div_3{
+    background-color:brown;
+}
+
+#littleMargin{
+    margin-right: 5px;
+}
+.navbar_down{
+    background-color: #79b9e7;
+}
+#text_black{
+    color: black;
+}
+#text_white{
+    color: rgb(255, 255, 255);
+}
+#text_white_margin{
+    color: rgb(255, 255, 255);
+    margin-left: 4px;
+}

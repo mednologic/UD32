@@ -1,0 +1,29 @@
+@import "bootstrap-social.less";
+.container-fluid{
+    background-image: url("../img/background_metal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+/*__________________Ejercicio 1______________________*/
+.btn-outline-dark{
+    background-color: black;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+
+/*______________________ TESTING___________________________ */
+.divTest_1{
+    background-color: aqua;
+}
+.divTest_2{
+    background-color: rgb(255, 0, 242);
+}
+.divTest_3{
+    background-color: rgb(0, 68, 255);
+}
+.divTest_4{
+    background-color: rgb(208, 255, 0);
+}

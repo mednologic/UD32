@@ -7,39 +7,64 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Style CSS -->
-    <link REL=StyleSheet HREF="../css/ej1.css" TYPE="text/css" MEDIA=screen>
+    <link REL=StyleSheet HREF="../css/ejercicio1.css" TYPE="text/css" MEDIA=screen>
     <title>Ejercicio 1 UD31</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row" id="div_2">
-            <div class="col">
-                <div class="row" id="div_2">
-                    <p>Login form</p>
-                </div>
-                <div class="row"id="div_2">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In rs laborum expedita inventore id dolores itaque doloribus, reprehenderit ipsum tenetur atque magnam similique iure, nisi repudiandae?</p>
-                </div>
-                <div class="col" id="div_centro">
-                    <div class="row" id="div_centro">
-                        <p>Login to our site</p>
+    <div class="container-fluid ">
+        
+        <div class="row"><br></div>
+
+        <div class="row">
+<!-- col left -->
+            <div class="col-sm"></div>
+<!-- col middle -->
+            <div class="col-md-5">
+                <form action="" method="post" name="FormEntrar">
+                    <div class="row">
+                            <!--Tittle-->
+                            <div class="col center-block"><br><br><h3>Login Form</h3></div>
+                                <!--LOCK-->
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10%" height="10%" fill="grey" class="bi bi-lock" viewBox="0 0 16 16">
+                                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                                </svg>
+                        <!--Description-->
+                        <div class="row center-block"> 
+                            <br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium laborum,</p>
+                        </div>
                     </div>
-                    <div class="col" id="div_peque">
-                        
-                        <div class="mb-3">
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="UserName">
-                          </div>
-                          <div class="mb-3">
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Password">
-                          </div>
-                    </div>
-                </div>
+                    <div class="row"></div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="sizing-addon1">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                        </span>
+                        <input type="email" class="form-control"  placeholder="Username" id="Correo" aria-describedby="sizing-addon1" required>
+                   </div>
+                   <br>
+                   <div class="input-group input-group-lg">
+                     <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-lock"></i></span>
+                     <input type="password"  class="form-control" placeholder="Password" aria-describedby="sizing-addon1" required>
+                   </div>
+                   <br>
+                   <button class="btn btn-lg btn-primary btn-block btn-signin" id="IngresoLog" type="submit">Log in</button>
+                   <div><br></div>
+                </form>
             </div>
+<!-- col right -->
+            <div class="col-sm text-center" id="columnaIzquierda"></div>
         </div>
-       
+        <div class="row-12 center-block text-center">
+            <br>
+            <p> Login with</p>
+        </div>
+        <div class="row-12 center-block text-center">
+            <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark">Facebook</button>
+            <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark">Twitter</button>
+            <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark">Google plus</button>
+        </div>
         
     </div>
-    
 
 </body>
 </html>

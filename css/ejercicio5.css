@@ -1,0 +1,18 @@
+body {
+    margin: 2%;
+}
+
+.pagination {
+    float: right;
+}
+
+.search {
+    float: right;
+}
+
+.mostrar {
+    float: left;
+}
+.tr_grey{
+    background-color: gray;
+}
